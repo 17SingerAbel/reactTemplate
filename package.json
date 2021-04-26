@@ -1,0 +1,36 @@
+{
+  "name": "2DposeTo3Dpose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:17SingerAbel/2DposeTo3Dpose.git",
+  "author": "Yeqi Sang <abel@orbiseed.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --host localhost --port 3000 --hot --open --config webpack.dev.config.js"
+  },
+  "dependencies": {
+    "core-js": "3.11.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "regenerator-runtime": "0.13.7"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.16",
+    "@babel/preset-env": "7.13.15",
+    "@babel/preset-react": "7.13.13",
+    "@babel/preset-typescript": "7.13.0",
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "babel-loader": "8.2.2",
+    "css-loader": "5.2.4",
+    "node-sass": "5.0.0",
+    "sass-loader": "11.0.1",
+    "source-map-loader": "2.0.1",
+    "style-loader": "2.0.0",
+    "ts-loader": "9.1.1",
+    "typescript": "4.2.4",
+    "webpack": "5.35.1",
+    "webpack-cli": "4.6.0",
+    "webpack-dev-server": "3.11.2"
+  }
+}
